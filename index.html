@@ -14,27 +14,42 @@
       justify-content: center;
       height: 100vh;
       margin: 0;
-      background-color: #000;
+      background: url('https://cdn.photoroom.com/v2/image-cache?path=gs://background-7ef44.appspot.com/backgrounds_v3/black/37_-_black.jpg') no-repeat center center fixed;
+      background-size: cover;
       color: #fff;
       font-family: 'Custom Font', Arial, sans-serif;
+      text-align: center;
+      padding: 20px;
+      position: relative;
+    }
+    .content {
+      position: absolute;
+      top: 20%;
+      width: 100%;
     }
     img {
       max-width: 80%;
       height: auto;
-      margin-bottom: 2rem;
+      margin-top: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     }
     h1 {
       font-size: 3rem;
       margin-bottom: 1rem;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
     }
     p {
       font-size: 1.5rem;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
     }
   </style>
 </head>
 <body>
+  <div class="content">
+    <h1>Iglesia Gran Rey</h1>
+    <p>Sitio web en construcción</p>
+  </div>
   <img src="Sin título.jpg" alt="Pastor Esteban Weiss">
-  <h1>Iglesia Gran Rey</h1>
-  <p>Sitio web en construcción</p>
 </body>
 </html>
