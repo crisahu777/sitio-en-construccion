@@ -11,7 +11,7 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      justify-content: center;
+      justify-content: flex-start; /* Cambiado de center a flex-start */
       height: 100vh;
       margin: 0;
       background: url('https://cdn.photoroom.com/v2/image-cache?path=gs://background-7ef44.appspot.com/backgrounds_v3/black/37_-_black.jpg') no-repeat center center fixed;
@@ -23,9 +23,8 @@
       position: relative;
     }
     .content {
-      position: absolute;
-      top: 10%; /* Ajusta este valor para mover el texto más arriba o más abajo */
       width: 100%;
+      margin-top: 2rem; /* Ajusta este valor para cambiar la distancia desde la parte superior */
     }
     img {
       max-width: 80%;
